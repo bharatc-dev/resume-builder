@@ -1,0 +1,59 @@
+.add-info-container {
+    margin: auto;
+
+    input,
+    textarea {
+        outline: none;
+        box-shadow: 1px 2px #c1c0c5;
+    }
+
+    .head-row {
+        margin-top: 20px;
+
+        .head {
+            font-size: 18px;
+            font-weight: 600;
+        }
+    }
+
+    .section-head {
+        display: block;
+        max-width: 100%;
+        line-height: 1.5em;
+        margin-top: 0.7rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+        letter-spacing: 0.05rem;
+    }
+
+    .add-info-form {
+        .head {
+            display: block;
+            max-width: 100%;
+            line-height: 1.5em;
+            margin-top: 0.7rem;
+            font-size: 1rem;
+            font-weight: 600;
+            letter-spacing: 0.05rem;
+            color: #000000;
+            opacity: 0.7;
+        }
+
+        .input-field {
+            width: 100%;
+            max-width: 100%;
+            display: block;
+            color: #222;
+            border: 1px solid #c1c0c5;
+            border-radius: 4px;
+            padding: 0.6em 1em;
+        }
+
+        .experience-row {
+            margin-top: 20px;
+        }
+    }
+    .info-preview {
+        background-color: #ffffff;
+    }
+}
